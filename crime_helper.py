@@ -38,15 +38,21 @@ EMPLOYMENT_NATIONAL =  '/api/police-employment/national/{since}/{until}'
 EMPLOYMENT_REGION = '/api/police-employment/regions/{regionName}/{since}/{until}'
 EMPLOYMENT_STATE = '/api/police-employment/states/{stateAbbr}/{since}/{until}'
 
+VICTIM_TKM_AGENCY = '/api/nibrs/{offense}/victim/agencies/{ori}/{variable}'
+VICTIM_TKM_NATIONAL = '/api/nibrs/{offense}/victim/national/{variable}'
+VICTIM_TKM_REGION = '/api/nibrs/{offense}/victim/regions/{regionName}/{variable}'
+VICTIM_TKM_STATE = '/api/nibrs/{offense}/victim/states/{stateAbbr}/{variable}'
+
 VICTIM_AGENCY = '/api/data/nibrs/{offense}/victim/agencies/{ori}/{variable}'
 VICTIM_NATIONAL = '/api/data/nibrs/{offense}/victim/national/{variable}'
 VICTIM_REGION = '/api/data/nibrs/{offense}/victim/regions/{regionName}/{variable}'
 VICTIM_STATE = '/api/data/nibrs/{offense}/victim/states/{stateAbbr}/{variable}'
 
-OFFENDER_AGENCY = '/api/data/nibrs/{offense}/offender/agencies/{ori}/{variable}'
-OFFENDER_NATIONAL = '/api/data/nibrs/{offense}/offender/national/{variable}'
-OFFENDER_REGION = '/api/data/nibrs/{offense}/offender/regions/{regionName}/{variable}'
-OFFENDER_STATE = '/api/data/nibrs/{offense}/offender/states/{stateAbbr}/{variable}'
+OFFENDER_TKM_AGENCY = '/api/data/nibrs/{offense}/offender/agencies/{ori}/{variable}'
+OFFENDER_TKM_NATIONAL = '/api/data/nibrs/{offense}/offender/national/{variable}'
+OFFENDER_TKM_REGION = '/api/data/nibrs/{offense}/offender/regions/{regionName}/{variable}'
+OFFENDER_TKM_STATE = '/api/data/nibrs/{offense}/offender/states/{stateAbbr}/{variable}'
+
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
