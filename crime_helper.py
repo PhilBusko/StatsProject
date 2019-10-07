@@ -48,10 +48,10 @@ VICTIM_NATIONAL = '/api/data/nibrs/{offense}/victim/national/{variable}'
 VICTIM_REGION = '/api/data/nibrs/{offense}/victim/regions/{regionName}/{variable}'
 VICTIM_STATE = '/api/data/nibrs/{offense}/victim/states/{stateAbbr}/{variable}'
 
-OFFENDER_TKM_AGENCY = '/api/data/nibrs/{offense}/offender/agencies/{ori}/{variable}'
-OFFENDER_TKM_NATIONAL = '/api/data/nibrs/{offense}/offender/national/{variable}'
-OFFENDER_TKM_REGION = '/api/data/nibrs/{offense}/offender/regions/{regionName}/{variable}'
-OFFENDER_TKM_STATE = '/api/data/nibrs/{offense}/offender/states/{stateAbbr}/{variable}'
+OFFENDER_TKM_AGENCY = '/api/nibrs/{offense}/offender/agencies/{ori}/{variable}'
+OFFENDER_TKM_NATIONAL = '/api/nibrs/{offense}/offender/national/{variable}'
+OFFENDER_TKM_REGION = '/api/nibrs/{offense}/offender/regions/{regionName}/{variable}'
+OFFENDER_TKM_STATE = '/api/nibrs/{offense}/offender/states/{stateAbbr}/{variable}'
 
 
 
