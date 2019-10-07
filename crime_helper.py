@@ -12,7 +12,7 @@ import math
 CONSTANTS
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-BASE_URL = 'https://api.usa.gov/crime/fbi/sapi/'
+BASE_URL = 'https://api.usa.gov/crime/fbi/sapi'
 API_KEY = 'nRdG8cJGUQdri4Ki1skMMeI1J4aZD0K8fvxcxC5X' 
 
 LOOKUP_AGENCIES = '/api/agencies'                                        
@@ -62,7 +62,7 @@ def get_json(endpoint, endpoint_config={}, add_params={}):
     for key, val in endpoint_config.items():
         endpoint_url = endpoint_url.replace(key, val)
 
-    print(endpoint_url)
+    #print(endpoint_url)
 
     params = {
         'api_key': API_KEY
