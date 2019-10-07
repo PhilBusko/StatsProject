@@ -1,0 +1,59 @@
+region_code,state_abbr,state_fips_code,state_id,state_name
+4,AK,2.0,1,Alaska
+3,AL,1.0,2,Alabama
+3,AR,5.0,3,Arkansas
+99,AS,60.0,4,American Samoa
+4,AZ,4.0,5,Arizona
+4,CA,6.0,6,California
+4,CO,8.0,7,Colorado
+1,CT,9.0,8,Connecticut
+99,CZ,,9,Canal Zone
+3,DC,11.0,10,District of Columbia
+3,DE,10.0,11,Delaware
+3,FL,12.0,12,Florida
+3,GA,13.0,13,Georgia
+0,GM,66.0,14,Guam
+4,HI,15.0,15,Hawaii
+2,IA,19.0,16,Iowa
+4,ID,16.0,17,Idaho
+2,IL,17.0,18,Illinois
+2,IN,18.0,19,Indiana
+2,KS,20.0,20,Kansas
+3,KY,21.0,21,Kentucky
+3,LA,22.0,22,Louisiana
+1,MA,25.0,23,Massachusetts
+3,MD,24.0,24,Maryland
+1,ME,23.0,25,Maine
+2,MI,26.0,26,Michigan
+2,MN,27.0,27,Minnesota
+2,MO,29.0,28,Missouri
+3,MS,28.0,29,Mississippi
+4,MT,30.0,30,Montana
+2,NE,31.0,31,Nebraska
+3,NC,37.0,32,North Carolina
+2,ND,38.0,33,North Dakota
+1,NH,33.0,34,New Hampshire
+1,NJ,34.0,35,New Jersey
+4,NM,35.0,36,New Mexico
+4,NV,32.0,37,Nevada
+1,NY,36.0,38,New York
+2,OH,39.0,39,Ohio
+3,OK,40.0,40,Oklahoma
+4,OR,41.0,41,Oregon
+1,PA,42.0,42,Pennsylvania
+1,PR,72.0,43,Puerto Rico
+1,RI,44.0,44,Rhode Island
+3,SC,45.0,45,South Carolina
+2,SD,46.0,46,South Dakota
+3,TN,47.0,47,Tennessee
+3,TX,48.0,48,Texas
+4,UT,49.0,49,Utah
+3,VA,51.0,51,Virginia
+1,VT,50.0,52,Vermont
+4,WA,53.0,53,Washington
+2,WI,55.0,54,Wisconsin
+3,WV,54.0,55,West Virginia
+4,WY,56.0,56,Wyoming
+0,MP,69.0,57,Mariana Islands
+99,OT,99.0,99,Other
+0,VI,78.0,50,US Virgin Islands
