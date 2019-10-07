@@ -53,6 +53,16 @@ OFFENDER_TKM_NATIONAL = '/api/nibrs/{offense}/offender/national/{variable}'
 OFFENDER_TKM_REGION = '/api/nibrs/{offense}/offender/regions/{regionName}/{variable}'
 OFFENDER_TKM_STATE = '/api/nibrs/{offense}/offender/states/{stateAbbr}/{variable}'
 
+ARREST_TKM_AGENCY = '/api/arrest/agencies/offense/{ori}/{variable}/{since}/{until}'
+ARREST_TKM_AGENCY_OFFENSE = '/api/arrest/agencies/{ori}/{offense}/{variable}/{since}/{until}'
+ARREST_TKM_NATIONAL = '/api/arrest/national/offense/{variable}/{since}/{until}'
+ARREST_TKM_NATIONAL_OFFENSE = '/api/arrest/national/{offense}/{variable}/{since}/{until}'
+ARREST_TKM_REGION = '/api/arrest/regions/offense/{regionName}/{variable}/{since}/{until}'
+ARREST_TKM_REGION_OFFENSE = '/api/arrest/regions/{regionName}/{offense}/{variable}/{since}/{until}'
+ARREST_TKM_STATE = '/api/arrest/states/offense/{stateAbbr}/{variable}/{since}/{until}'
+ARREST_TKM_STATE_OFFENSE = '/api/arrest/states/{stateAbbr}/{offense}/{variable}/{since}/{until}'
+
+
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -122,4 +132,15 @@ def get_paginated(endpoint_url, params, pagination):
         response_ls += results
 
     return response_ls
+
+
+
+def map_med_to_short(medium_offense):
+    pass
+
+
+
+
+
+
 
