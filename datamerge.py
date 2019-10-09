@@ -52,3 +52,19 @@ def create_population_df(employment_df, race_ratio_df):
     population_df = pd.merge(population_df, race_ratio_df, how='left', on='state_name')
     
     return population_df
+
+
+def create_victim_df(victim_df, population_df):
+    '''This function returns restructured dataframe of victims by gender'''
+    
+    df1 = victim_df.loc[victim_df.year>=2010]
+    df1 = df1.groupby(['state', 'year', 'gender'])['count'].sum().reset_index()
+
+    df2 = pd.merge(df1.loc[df1.gender=='Male'], df1.loc[df1.gender=='Female'], on=['state', 'year'])
+    df3 = pd.merge(df2, population_df, how='left', on=['state','year'])
+    df4 = df3.iloc[:,[0,1,3,5,6]]
+    df4.columns = ['state', 'year', 'count_male', 'count_female', 'population']
+    df4['male_proportion'] = df4.count_male / (df4.count_male + df4.count_female)
+
+    return df4
+
