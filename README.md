@@ -1,12 +1,12 @@
-# StatsProject
+# FIS Project 3 - Statistics 
 
 # Collaborators
-Phillip Busko
-Andrea Koltai
+Phillip Busko <br>
+Andrea Koltai <br>
 
 # Tasks
-create code for automating data retrieval (PB)
-get data for lookup endpoint (PB)
+create code for automating data retrieval (PB) <br>
+get data for lookup endpoint (PB) <br>
 get data for arrest endpoint (PB)
 get data for offense endpoint (PB)
 get data for offender endpoint (AK)
