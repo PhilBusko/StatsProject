@@ -1,10 +1,10 @@
 # FIS Project 3 - Statistics 
 
-# Collaborators
+## Collaborators
 Phillip Busko <br>
 Andrea Koltai <br>
 
-# Tasks
+## Tasks
 create code for automating data retrieval (PB) <br>
 get data for lookup endpoint (PB) <br>
 get data for arrest endpoint (PB) <br>
@@ -15,7 +15,7 @@ get data for victim endpoint (PB) <br>
 run clean, merge and analysis for arrests by region (PB) <br>
 run clean, merge, and analysis for offenders by race (AK) <br>
 
-# Files
+## Files
 
 /data/
 - folder has the lookup csvs
