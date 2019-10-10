@@ -21,12 +21,12 @@ def create_offender_df(offender_df, population_df):
     '''The function normalizes the offender ratio according to the population 
     proportion of that race, displaying on 1000 people.'''
     
-    df_black['black_pop'] = df_black['black'] * df_black['population']
-    df_black['black_norm'] = df_black.offenders / df_black.black_pop * 1000
+    df_black.loc[:,'black_pop'] = df_black['black'] * df_black['population']
+    df_black.loc[:,'black_norm'] = df_black.offenders / df_black.black_pop * 1000
     df_black = df_black.loc[:, ['state', 'year', 'black_norm']]
     
-    df_white['white_pop'] = df_white['white'] * df_white['population']
-    df_white['white_norm'] = df_white.offenders / df_white.white_pop * 1000
+    df_white.loc[:,'white_pop'] = df_white['white'] * df_white['population']
+    df_white.loc[:,'white_norm'] = df_white.offenders / df_white.white_pop * 1000
     df_white = df_white.loc[:, ['state', 'year', 'white_norm']]
     
     df3 = pd.merge(df_white, df_black, on=['state', 'year'])
@@ -64,7 +64,7 @@ def create_victim_df(victim_df, population_df):
     df3 = pd.merge(df2, population_df, how='left', on=['state','year'])
     df4 = df3.iloc[:,[0,1,3,5,6]]
     df4.columns = ['state', 'year', 'count_male', 'count_female', 'population']
-    df4['male_proportion'] = df4.count_male / (df4.count_male + df4.count_female)
+    df4.loc[:,'male_proportion'] = df4.count_male / (df4.count_male + df4.count_female)
 
     return df4
 
